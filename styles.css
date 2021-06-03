@@ -494,8 +494,8 @@ header .def__header-overlay {
 /* ALUMNI */
 
 .alumni {
-  padding: 4.5rem 12rem;
-  /* height: 100vh; */
+  padding: 4.5rem 10rem;
+
   background: #efeff1;
 }
 
@@ -616,22 +616,84 @@ header .def__header-overlay {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 375px) {
-  .alumni__container {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    /* flex-wrap: wrap !important; */
-    /* justify-content: center !important; */
-    width: 50%;
+@media screen and (max-width: 320px) {
+  .def__header-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .def__header-content p {
+    font-size: 12.5px;
   }
 }
 
 @media screen and (max-width: 375px) {
-  /* .alumni__container {
-    display: none;
-    flex-wrap: wrap;
-    justify-content: center;
-  } */
+  .def__header-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .def__header-content p {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  .def__header-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .def__header-content p {
+    font-size: 11.5px !important;
+  }
+}
+
+@media screen and (max-width: 416px) {
+  .def__header-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .def__header-content p {
+    font-size: 11.5px !important;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .def__header-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .def__header-content p {
+    font-size: 11.5px !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .def__header-content h1 {
+    font-size: 1.9rem;
+  }
+
+  .def__header-content p {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .def__header-content h1 {
+    font-size: 1.9rem;
+  }
+
+  .def__header-content p {
+    font-size: 12.5px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about__us .appendix-line {
+    margin-left: -1px !important;
+  }
+
+  .alumni .appendix-line {
+    margin-left: -50px !important;
+  }
 
   .h2 {
     text-align: center !important;
@@ -726,6 +788,12 @@ header .def__header-overlay {
   }
 }
 @media screen and (max-width: 678px) {
+  .alumni__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 603px) {
   .alumni__container {
     display: grid;
     grid-template-columns: 1fr;
