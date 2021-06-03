@@ -615,7 +615,24 @@ header .def__header-overlay {
 }
 
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 375px) {
+  .alumni__container {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    /* flex-wrap: wrap !important; */
+    /* justify-content: center !important; */
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* .alumni__container {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+  } */
+
   .h2 {
     text-align: center !important;
   }
@@ -686,6 +703,13 @@ header .def__header-overlay {
     margin-left: -20px;
   }
 }
+
+/* @media screen and (max-width: 384px) {
+  .alumni__container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+} */
 
 @media screen and (max-width: 1234px) {
   .alumni__container {
