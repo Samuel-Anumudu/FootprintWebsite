@@ -4,7 +4,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -256,7 +258,7 @@ header .def__header-overlay {
 }
 
 .about__us h2 {
-  color: #2c3e50;
+  color: #151516;
   font-weight: bold;
   font-size: 2rem;
   margin-bottom: 0;
@@ -305,7 +307,7 @@ header .def__header-overlay {
 }
 
 .services h2 {
-  color: #2c3e50;
+  color: #151516;
   font-size: 2rem;
   margin-bottom: 50px;
   text-align: center;
@@ -366,7 +368,7 @@ header .def__header-overlay {
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #000;
+  background: #151516;
   font-size: 1rem;
 }
 
@@ -388,7 +390,7 @@ header .def__header-overlay {
 
 .team__header h2 {
   padding-top: 60px;
-  color: #2c3e50;
+  color: #151516;
   font-weight: bold !important;
   margin: auto;
   line-height: 50px;
@@ -473,11 +475,11 @@ header .def__header-overlay {
 }
 
 .h2 {
-  color: #2c3e50;
+  color: #151516;
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 0;
-  text-align: center;
+  text-align: center !important;
 }
 
 .alumni__text h3 {
@@ -574,7 +576,9 @@ header .def__header-overlay {
   position: relative;
   background: #151516;
   min-height: 100vh;
-  padding: 100px 100px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -705,6 +709,78 @@ header .def__header-overlay {
   display: none;
 }
 
+.GetInTouch h2 {
+  color: #151516;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 70px;
+}
+
+.map {
+  margin-bottom: -7px;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #f9f9f9;
+  height: 100%;
+  padding: 60px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__links {
+  display: flex;
+  padding: 20px;
+}
+
+.footer__links a {
+  border: 1px solid #f9f9f9;
+  border-radius: 100%;
+  transition: all 0.3s ease-in;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 2px rgb(212 212 212 / 35%);
+  box-shadow: 0 1px 2px rgb(212 212 212 / 35%);
+}
+
+.footer__links a:hover {
+  background: linear-gradient(to top, #b61940 0%, #f7673c 100%);
+}
+
+.footer em:hover {
+  color: #fff;
+}
+
+.footer__links a em {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+  background: linear-gradient(to top, #b61940 0%, #f7673c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: all 0.3s ease-in;
+}
+
+.footer .footer__text {
+  text-align: center;
+  color: #787878;
+  font-size: 14px;
+  font-family: "Century Gothic";
+}
+
+/* MEDIA QUERIES */
+
 @media (max-width: 991px) {
   .contact__us {
     padding: 50px;
@@ -723,8 +799,6 @@ header .def__header-overlay {
     width: 100%;
   }
 }
-
-/* MEDIA QUERIES */
 
 @media screen and (max-width: 320px) {
   .def__header-content h1 {
