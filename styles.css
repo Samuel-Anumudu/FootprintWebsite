@@ -12,6 +12,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
+
   /* background: transparent; */
 }
 
@@ -248,20 +249,17 @@ header .def__header-overlay {
 
 .about__us {
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 20px;
   padding: 5rem 0;
   font-size: 0;
   display: inline-block;
 }
 
 .about__us h2 {
-  color: #ce4c3c;
-  /* background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
-  background-size: 100%; */
+  color: #2c3e50;
+  font-weight: bold;
   font-size: 2rem;
   margin-bottom: 0;
-
   /* font-family: "Century Gothic"; */
   text-align: center;
 }
@@ -272,7 +270,8 @@ header .def__header-overlay {
 
 .about__us__paragraph {
   font-family: "Century Gothic";
-  font-size: 1rem;
+  font-size: 100%;
+
   font-weight: 400;
   line-height: 1.75;
   color: #333;
@@ -302,15 +301,15 @@ header .def__header-overlay {
   align-items: center;
   height: 100%;
   padding: 6rem 0;
-  margin-top: -40px;
+  margin-top: 20px;
 }
 
 .services h2 {
-  color: #ce4c3c;
+  color: #2c3e50;
   font-size: 2rem;
-  /* margin-bottom: 50px; */
-  /* font-family: "Century Gothic"; */
+  margin-bottom: 50px;
   text-align: center;
+  font-weight: bold;
 }
 
 .services__wrapper {
@@ -320,7 +319,9 @@ header .def__header-overlay {
 }
 
 .services__card > h2 {
-  color: #151516;
+  color: #000;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 150%;
 }
 
 .services__card {
@@ -331,37 +332,26 @@ header .def__header-overlay {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fff;
-  /* color: #fff; */
-  /* background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%); */
-  background-size: 100%;
+  background-color: #ebebeb;
   transition: 0.3s ease-in;
 }
 
 .services__card:nth-child(2) {
-  background-color: #fff;
-  /* background-color: #ff8177; */
-  /* background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%); */
-  background-size: 100%;
+  background-color: #ebebeb;
 }
 
 .services__card:nth-child(3) {
-  background-color: #fff;
-  /* background-color: #ff8177; */
-  /* background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%); */
-  background-size: 100%;
+  background-color: #ebebeb;
 }
 
 .services__card h2 {
   text-align: center;
-  font-family: "Century Gothic";
 }
 
 .services__card p {
   text-align: center;
   margin-top: 24px;
-  font-size: 20px;
-  font-family: "Century Gothic";
+  font-size: 18px;
 }
 
 .services__btn {
@@ -376,7 +366,7 @@ header .def__header-overlay {
   border: none;
   outline: none;
   border-radius: 4px;
-  background: #151516;
+  background: #000;
   font-size: 1rem;
 }
 
@@ -396,11 +386,10 @@ header .def__header-overlay {
   /* background: #e4e4e7; */
 }
 
-.team__header {
+.team__header h2 {
   padding-top: 60px;
-  color: #ce4c3c;
-  /* font-family: "Century Gothic"; */
-  /* font-size: 2rem !important; */
+  color: #2c3e50;
+  font-weight: bold !important;
   margin: auto;
   line-height: 50px;
 }
@@ -484,10 +473,10 @@ header .def__header-overlay {
 }
 
 .h2 {
-  color: #ce4c3c;
+  color: #2c3e50;
   font-size: 2rem;
+  font-weight: bold;
   margin-bottom: 0;
-  /* font-family: "Century Gothic"; */
   text-align: center;
 }
 
@@ -583,13 +572,13 @@ header .def__header-overlay {
 /* CONTACT US */
 .contact__us {
   position: relative;
+  background: #151516;
   min-height: 100vh;
-  padding: 50px 100px;
+  padding: 100px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #fff;
 }
 
 .contact__us .contact__us__content {
@@ -599,13 +588,14 @@ header .def__header-overlay {
 
 .contact__us .contact__us__content h2 {
   font-size: 2rem;
-  color: #ce4c3c;
-  /* font-family: "Century Gothic"; */
+  color: #f9f9f9;
+  font-weight: bold;
 }
 
 .contact__us .contact__us__content p {
   font-family: "Century Gothic";
-  color: #333;
+  font-size: 100%;
+  color: #f9f9f9;
 }
 
 .contact__container {
@@ -617,9 +607,10 @@ header .def__header-overlay {
 }
 
 .contact__container .contact__info {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 25%;
 }
 
 .contact__container .contact__info .box {
@@ -627,6 +618,7 @@ header .def__header-overlay {
   padding: 20px 0;
   display: flex;
 }
+
 .contact__container .contact__info .box .icon {
   min-width: 60px;
   height: 60px;
@@ -645,7 +637,7 @@ header .def__header-overlay {
   font-size: 16px;
   flex-direction: column;
   font-family: "Century Gothic";
-  color: #333;
+  color: #f9f9f9;
 }
 
 .contact__container .contact__info .box .text h3 {
@@ -661,7 +653,7 @@ header .def__header-overlay {
 
 .contactForm h2 {
   font-size: 30px;
-  color: #333;
+  color: #f9f9f9;
   font-weight: 500;
   font-family: "Century Gothic";
 }
